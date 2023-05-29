@@ -1,0 +1,29 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+}
+
+.container {
+  max-width: 500px;
+  margin: auto;
+}
+
+.todo-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.todo {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.todo-title {
+  font-weight: bold;
+}
+
+.todo-completed {
+  text-decoration: line-through;
+}
